@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.ota.misc;
+package org.atom.ota.misc;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -37,11 +37,11 @@ import android.widget.Toast;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.evolution.ota.UpdatesDbHelper;
-import org.evolution.ota.controller.UpdaterService;
-import org.evolution.ota.model.Update;
-import org.evolution.ota.model.UpdateBaseInfo;
-import org.evolution.ota.model.UpdateInfo;
+import org.atom.ota.UpdatesDbHelper;
+import org.atom.ota.controller.UpdaterService;
+import org.atom.ota.model.Update;
+import org.atom.ota.model.UpdateBaseInfo;
+import org.atom.ota.model.UpdateInfo;
 
 import java.io.BufferedReader;
 import java.io.File;

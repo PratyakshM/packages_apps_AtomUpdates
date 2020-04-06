@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.ota.controller;
+package org.atom.ota.controller;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -24,12 +24,12 @@ import android.os.PowerManager;
 import android.os.SystemClock;
 import android.util.Log;
 
-import org.evolution.ota.UpdatesDbHelper;
-import org.evolution.ota.download.DownloadClient;
-import org.evolution.ota.misc.Utils;
-import org.evolution.ota.model.Update;
-import org.evolution.ota.model.UpdateInfo;
-import org.evolution.ota.model.UpdateStatus;
+import org.atom.ota.UpdatesDbHelper;
+import org.atom.ota.download.DownloadClient;
+import org.atom.ota.misc.Utils;
+import org.atom.ota.model.Update;
+import org.atom.ota.model.UpdateInfo;
+import org.atom.ota.model.UpdateStatus;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 

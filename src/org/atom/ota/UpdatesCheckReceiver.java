@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.ota;
+package org.atom.ota;
 
 import android.app.AlarmManager;
 import android.app.NotificationChannel;
@@ -29,8 +29,8 @@ import android.util.Log;
 import androidx.core.app.NotificationCompat;
 
 import org.json.JSONException;
-import org.evolution.ota.download.DownloadClient;
-import org.evolution.ota.misc.Utils;
+import org.atom.ota.download.DownloadClient;
+import org.atom.ota.misc.Utils;
 
 import java.io.File;
 import java.io.IOException;

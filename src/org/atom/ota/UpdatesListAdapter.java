@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.ota;
+package org.atom.ota;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -37,14 +37,14 @@ import android.widget.CheckBox;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.evolution.ota.controller.UpdaterController;
-import org.evolution.ota.controller.UpdaterService;
-import org.evolution.ota.misc.Constants;
-import org.evolution.ota.misc.PermissionsUtils;
-import org.evolution.ota.misc.StringGenerator;
-import org.evolution.ota.misc.Utils;
-import org.evolution.ota.model.UpdateInfo;
-import org.evolution.ota.model.UpdateStatus;
+import org.atom.ota.controller.UpdaterController;
+import org.atom.ota.controller.UpdaterService;
+import org.atom.ota.misc.Constants;
+import org.atom.ota.misc.PermissionsUtils;
+import org.atom.ota.misc.StringGenerator;
+import org.atom.ota.misc.Utils;
+import org.atom.ota.model.UpdateInfo;
+import org.atom.ota.model.UpdateStatus;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.view.ContextThemeWrapper;

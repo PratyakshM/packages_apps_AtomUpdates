@@ -1,8 +1,8 @@
-package org.evolution.ota.misc;
+package org.atom.ota.misc;
 
 import android.os.AsyncTask;
 
-import org.evolution.ota.UpdatesListAdapter;
+import org.atom.ota.UpdatesListAdapter;
 
 import java.io.BufferedReader;
 import java.io.IOException;
